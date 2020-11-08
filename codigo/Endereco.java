@@ -6,8 +6,8 @@ public class Endereco {
     private String rua;
     private int numero;
 
-    public Endereco( ){}
-    public Endereco(String pais, String estado, String cidade, String bairro, String rua, int numero){
+    public Endereco( ) {}
+    public Endereco(String pais, String estado, String cidade, String bairro, String rua, int numero) {
         setPais(pais);
         setEstado(estado);
         setCidade(cidade);

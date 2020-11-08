@@ -4,37 +4,37 @@ public class Data {
     private int ano;
 
     //Construtores
-    public Data(){}
-    public Data(int dia, int mes, int ano){
+    public Data() {}
+    public Data(int dia, int mes, int ano) {
         setDia (dia);
         setMes (mes);
         setAno (ano);
     }
 
     //Métodos Sets
-    public void setDia(int dia){
+    public void setDia(int dia) {
         this.dia = dia;
     }
-    public void setMes(int mes){
+    public void setMes(int mes) {
         this.mes = mes;
     }
-    public void setAno(int ano){
+    public void setAno(int ano) {
         this.ano = ano;
     }
 
     //Métodos Gets
-    public int getDia(){
+    public int getDia() {
         return this.dia;
     }
-    public int getAno(){
+    public int getAno() {
         return this.ano;
     }
-    public int getMes(){
+    public int getMes() {
         return this.mes;
     }
 
     //Método toString
-    public String toString(){
+    public String toString() {
         return String.format ("%d/%d/%d", getDia(), getMes(), getAno());
     }
 }

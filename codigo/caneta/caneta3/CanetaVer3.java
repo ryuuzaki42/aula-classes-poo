@@ -1,4 +1,3 @@
-
 public class CanetaVer3 {
     private String cor;
     private int carga;

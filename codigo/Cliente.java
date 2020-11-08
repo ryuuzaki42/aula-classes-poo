@@ -6,7 +6,7 @@ public class Cliente {
 
     //Construtores
     public Cliente(){}
-    public Cliente(String nome, String sobrenome, String cpf, String rg){
+    public Cliente(String nome, String sobrenome, String cpf, String rg) {
         setNome (nome);
         setSobrenome (sobrenome);
         setCpf (cpf);
@@ -14,35 +14,35 @@ public class Cliente {
     }
 
     //Métodos Sets
-    public void setNome(String nome){
+    public void setNome(String nome) {
         this.nome = nome;
     }
-    public void setSobrenome(String sobrenome){
+    public void setSobrenome(String sobrenome) {
         this.sobrenome = sobrenome;
     }
-    public void setCpf(String cpf){
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
-    public void setRg(String rg){
+    public void setRg(String rg) {
         this.rg = rg;
     }
 
     //Métodos Gets
-    public String getNome(){
+    public String getNome() {
         return this.nome;
     }
-    public String getSobrenome(){
+    public String getSobrenome() {
         return this.sobrenome;
     }
-    public String getCpf(){
+    public String getCpf() {
         return this.cpf;
     }
-    public String getRg(){
+    public String getRg() {
         return this.rg;
     }
 
     //Método toString
-    public String toString(){
+    public String toString() {
         return String.format ("\nNome: %s\nSobrenome : %s\nCPF: %s\nRG: %s", getNome(), getSobrenome(), getCpf(), getRg());
     }
 }
