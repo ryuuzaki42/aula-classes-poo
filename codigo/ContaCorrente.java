@@ -6,11 +6,11 @@ class ContaCorrente {
         if (valor > 0) {
             if (this.saldo >= valor) {
                 this.saldo -= valor;
-            } else
-                System.out.println("Saldo insuficiente");
             } else {
-                System.out.println("valor do saque deve ser positivo");
+                System.out.println("Saldo insuficiente");
             }
+        } else {
+                System.out.println("valor do saque deve ser positivo");
         }
     }
 }
