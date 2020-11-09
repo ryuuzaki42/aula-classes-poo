@@ -4,8 +4,8 @@ class ContaCorrente {
     public void saque(float valor) {
         System.out.println("Solicitado saque de valor R$ " + valor);
         if (valor > 0) {
-            if (this.saldo >= valor) {
-                this.saldo -= valor;
+            if (saldo >= valor) {
+                saldo -= valor;
             } else {
                 System.out.println("Saldo insuficiente");
             }
